@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(urlPage)));
             }
         });
+
         profileBtn.setOnClickListener(v->{
             String facebookId = "fb://profile/100005989143094";
             String urlPage = "https://www.facebook.com/hridoykrisnadas";
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(urlPage)));
             }
         });
+
         pageBtn.setOnClickListener(v->{
             String facebookId = "fb://profile/100085028771698";
             String urlPage = "https://www.facebook.com/people/Bitan-Kumar/100085028771698";
